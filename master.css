@@ -45,15 +45,9 @@ body::after{
     transform: rotate(329deg);
 }
 @media(max-width:767px){
-    body::before{
-        transform: rotate(228deg);
-        top: -192px;
-        left: -116px;
-    }
+    body::before,
     body::after{
-        bottom: -50px;
-        right: -180px;
-        transform: rotate(33deg)
+        display: none;
     }
 }
 .card {
